@@ -1,0 +1,9 @@
+    .availability {
+        background-color: rgb(164, 198, 57);
+    }
+    body {
+        background-image: url("pictures/slide_03.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 30px;
+    }
