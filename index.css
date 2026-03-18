@@ -7,3 +7,25 @@
         background-repeat: no-repeat;
         margin: 30px;
     }
+    .navigation {
+        color: white;
+    }
+    .hero {
+        color: rgb(164, 198, 57);
+    }
+    .analysis {
+        color: white;
+    }
+    .text{
+        color: white;
+    }
+    .contact-btn {
+        background-color: rgb(164, 198, 57);
+        color: white;
+        border: none;
+        padding: 15px 40px;
+        font-size: 16px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-weight: bold;
+    }
