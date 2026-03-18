@@ -1,6 +1,21 @@
-    .availability {
-        background-color: rgb(164, 198, 57);
-    }
+.top-bar {
+    background-color: rgb(164, 198, 57);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    font-weight: bold;
+}
+.top-bar .left {
+    display: flex;
+    gap: 30px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
     body {
         background-image: url("pictures/slide_03.jpg");
         background-size: cover;
@@ -9,15 +24,23 @@
     }
     .navigation {
         color: white;
+        font-size: 16px;
+        font-weight: bold;
     }
     .hero {
         color: rgb(164, 198, 57);
+        font-size: 16px;
+        font-weight: bold;
     }
     .analysis {
         color: white;
+        font-size: 16px;
+        font-weight: bold;
     }
     .text{
         color: white;
+        font-size: 16px;
+        font-weight: bold;
     }
     .contact-btn {
         background-color: rgb(164, 198, 57);
