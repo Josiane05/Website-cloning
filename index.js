@@ -5,4 +5,7 @@ var catSay = function(max){
    }
    return catMessage;
 }
-console.log(catSay(3));
+function helloCats (callbacKFunc){
+   return "hello " + callbacKFunc(3);
+}
+console.log(helloCats(catSay));
