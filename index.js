@@ -1,8 +1,16 @@
-console.log("The man whispered,\"please speak to me.\"")
-console.log("up up\n\t down down")
-console.log("Yes" == "yes");
-console.log("green"=="green");
-console.log("green">"blue");
-console.log("Green">"green");
-console.log(0==false);
-console.log("julia" + 1);
+function makeLine(length){
+   var line = "";
+   for(var j = 0; j <= length; j++){
+      line += "*";
+   }
+   return line + "\n";
+}
+function buildTriangle(length) {
+   var triangle = "";
+   var lineNumber = 1;
+   for(var lineNumber = 1; lineNumber <= length; lineNumber++){
+      triangle  = triangle + makeLine(lineNumber);
+   }
+   return triangle;
+}
+console.log(buildTriangle(10));
