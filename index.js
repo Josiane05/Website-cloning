@@ -1,11 +1,11 @@
-var catSay = function(max){
-   var catMessage = "";
-   for(var i = 0; i < max; i++){
-      catMessage += "meow";
-   }
-   return catMessage;
+function getCount(str) {
+  var count = 0;
+  var vowels = "aeiou";
+  for(var i = 0; i < str.length; i++ ) {
+      if(vowels.includes(str[i])) {
+         count++;
+      }
+  }
+  return count;
 }
-function helloCats (callbacKFunc){
-   return "hello " + callbacKFunc(3);
-}
-console.log(helloCats(catSay));
+console.log(getCount("hello"));
