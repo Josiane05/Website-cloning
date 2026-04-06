@@ -1,3 +1,6 @@
-var sortMe = [1, 4, 6, 3, 2];
-sortMe.sort();
-console.log(sortMe);
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+for (var i = 0; i < donuts.length; i++) {
+   donuts[i] += " hole";
+   donuts[i] = donuts[i].toUpperCase();
+   console.log(donuts);
+}
