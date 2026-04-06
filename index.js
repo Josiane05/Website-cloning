@@ -1,3 +1,3 @@
-var reverseMe = ["he", "l", "l", "o"];
-reverseMe.reverse();
-console.log(reverseMe);
+var sortMe = [1, 4, 6, 3, 2];
+sortMe.sort();
+console.log(sortMe);
