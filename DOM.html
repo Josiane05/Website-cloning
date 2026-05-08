@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test</title>
+</head>
+<body>
+
+<h1>Hello World</h1>
+
+<script>
+const mainHeading = document.querySelector('h1');
+
+mainHeading.addEventListener('click', function () {
+  console.log('The heading was clicked!');
+});
+
+function myEventListeningFunction() {
+    console.log('howdy');
+}
+
+// adds a listener for clicks, to run the `myEventListeningFunction` function
+document.addEventListener('click', myEventListeningFunction);
+
+// immediately removes the click listener that should run the `myEventListeningFunction` function
+document.removeEventListener('click', myEventListeningFunction);
+</script>
+
+</body>
+</html>

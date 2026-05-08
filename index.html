@@ -3,53 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website cloning</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>CSS FLEXBOX</title>
+    <style>
+        .container {
+            display: flex;
+            background-color: dodgerblue;        
+        }
+
+        .container div {
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+    </style>
 </head>
-
 <body>
-   <div class="top-bar">
-    <div class="left">
-        ⏰ Mon-Fri 09:00 - 17:00
-        📞 090-080-0760
-        <i class="fab fa-facebook-f"></i> <br>
+    <h1>Create a flex container</h1>
 
-        <i class="fab fa-twitter"></i> <br>
-
-        <i class="fab fa-linkedin-in"></i> <br>
-
-        <i class="fab fa-behance"></i> <br>
-
+    <div class="container">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
     </div>
-</div>
-    <table border="0" width="100%" class="navigation">
-        <tr>
-            <td>
-                <h2>FINANCE BUSINESS</h2>
-            </td>
-            <td>Home</td>
-            <td>About Us</td>
-            <td>Our Services</td>
-            <td>Contact Us</td>
-            <td>One Page</td>
-        </tr>
-    </table>
-    <table border="0" width="100%" class="hero" >
-        <tr>
-            <td>
-                <h2>WE ARE READY TO HELP YOU</h2>
-            </td>
-        </tr>
-    </table>
+    <p>a flex box must have the display property set to flex or inline-flex.</p>
 
-<h1 class="analysis">FINANCIAL ANALYSIS <br> & CONSULTING</h1>
-
-<p class="text">
-    This finance HTML template is 100% free of charge provided by templateMo <br>
-    for everyone. This is multiple-page version with different HTML pages. <br>
-    One-page version is available as of 2021 February.
-</p>
-    <button class="contact-btn">CONTACT US</button>
+    <p>the direct child element of flex container become automatically flex items.</p>
 </body>
 </html>
